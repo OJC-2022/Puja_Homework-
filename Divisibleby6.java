@@ -1,6 +1,5 @@
 import java.util.*;
 
-import javax.xml.crypto.dsig.keyinfo.RetrievalMethod;
 public class Divisibleby6 {
 
     public static boolean[] checkdivisibility(int[] arr){
