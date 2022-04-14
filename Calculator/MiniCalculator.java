@@ -73,7 +73,10 @@ public class MiniCalculator {
         System.out.println("Enter two numbers for remainder : ");
         int a = sc.nextInt();
         int b = sc.nextInt();
-        System.out.println(a % b);
+        if (b == 0) {
+            System.out.println("enter valid number.. please enter natural number...");
+        } else
+            System.out.println(a % b);
     }
 
     public static void main(String[] args) {
