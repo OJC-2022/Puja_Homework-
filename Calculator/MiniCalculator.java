@@ -31,7 +31,7 @@ public class MiniCalculator {
                 break;
             case 0:
                 System.out.println("exited");
-                break;
+                System.exit(0);
             default:
                 System.out.println("Invalid option!!!\nPlease enter correct option.");
         }
