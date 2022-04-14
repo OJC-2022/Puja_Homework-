@@ -63,7 +63,7 @@ public class MiniCalculator {
         int a = sc.nextInt();
         int b = sc.nextInt();
         if (b == 0) {
-            System.out.println("enter valid number.. please enter natural number...");
+            System.out.println("please enter second number other than 0");
         } else
             System.out.println(a / b);
 
@@ -74,7 +74,7 @@ public class MiniCalculator {
         int a = sc.nextInt();
         int b = sc.nextInt();
         if (b == 0) {
-            System.out.println("enter valid number.. please enter natural number...");
+            System.out.println("please enter second number other than 0");
         } else
             System.out.println(a % b);
     }
